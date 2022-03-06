@@ -1,6 +1,9 @@
 /**
  * \file drv_spmtx_double.cc
  * \brief driver program to test the matrix class based on C++ vector
+ * \details 给定向量vec1、包含相同随机数据的实矩阵dense_mat和sparse_mat。\n
+ * 计算：vec2=sparse_mat*vec1，vec4=dense_mat*vec1。\n
+ * 输出两计算结果之差（vec4-=vec2）的L1范数（分量最大值）、L2范数（到原点欧氏距离）。\n
  */
 #include <iostream>
 #include "csr_spmtx_vec.h"

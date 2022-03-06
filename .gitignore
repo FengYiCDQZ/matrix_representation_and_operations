@@ -6,3 +6,4 @@ drv_spmtx_zplx.o
 xdbl_spmtx_vec
 xzplx_spmtx_vec
 doxygen-file
+test

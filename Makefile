@@ -23,5 +23,8 @@ $(zplx_spmtx): drv_spmtx_zplx.o
 %.o : ./src/%.cu 
 	$(CC) $(CC_FLAGS) -Wall -c $< -o $@
 
+doc :
+	doxygen Doxyfile
+
 clean:
 	rm -f *.o *.x x*
